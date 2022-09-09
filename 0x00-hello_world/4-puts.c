@@ -1,13 +1,8 @@
 #include <stdio.h>
-
 /**
+ * main - This is the main function
  *
- *    * main - print to screen
- *
- *       *
- *
- *          * Return: zero
- *
+ * Return: This will return (0) if successfull
  */
 
 int main(void)

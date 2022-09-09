@@ -1,15 +1,11 @@
 #include <stdio.h>
 
 /**
+ * main - This is the main function
  *
- *    * main - Prints onto screen
+ * Return: This will return (0) if successful
  *
- *       *
- *
- *          * Return: zero
- *
- *             */
-
+ */
 int main(void)
 
 {
