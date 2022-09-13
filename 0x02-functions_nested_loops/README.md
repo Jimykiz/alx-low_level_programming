@@ -1,1 +1,1 @@
-all task done
+task 0

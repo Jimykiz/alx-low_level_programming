@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 /**
  * main - main function
  *
@@ -6,11 +6,11 @@
  */
 int main(void)
 {
-char *main.h = "main.h";
-while (*main.h)
+char *holberton = "holberton";
+while (*holberton)
 {
-_putchar(*main.h);
-main.h++;
+_putchar(*holberton);
+holberton++;
 }
 _putchar('\n');
 return (0);
