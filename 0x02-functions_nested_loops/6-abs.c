@@ -1,13 +1,8 @@
 #include "main.h"
-
-
-
 /**
- * print_sign - compute the absolute value.
- *
- * @n: to be checked
- *
- * * Return: Always 0.
+ * print_sign - To check for a sign of value
+ * @n: int for argument of the function
+ * Return: 0
  */
 
 int print_sign(int n)
