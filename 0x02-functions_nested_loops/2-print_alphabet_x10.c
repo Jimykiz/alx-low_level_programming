@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * print_alphabet_x10 - prints the alphabet in lowercase
  * followed by new line.
@@ -7,13 +7,13 @@
  */
 void print_alphabet_x10(void)
 {
-int i;
-int j;
+	char c, i;
+
 for (i = '0'; i <= '9'; i++)
 {
-for (j = 'a'; j <= 'z'; j++)
+for (c = 'a'; j <= 'z'; j++)
 {
-_putchar(j);
+_putchar(c);
 }
 _putchar('\n');
 }
