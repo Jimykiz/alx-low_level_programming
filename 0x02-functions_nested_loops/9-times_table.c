@@ -5,19 +5,22 @@
  */
 void times_table(void)
 {
-int n;
-int i;
-for (n = 0; n <= 9; n++)
-{
-_putchar('0');
-for (i = 1; i <= 9; i++)
-{
-_putchar(',');
-_putchar(' ');
-(result <= 9) ?
-_putchar('0' + (result / 10));
-_putchar('0' + (result % 10));
-}
-_putchar('\n');
+	int num, mult, prod;
+
+	for (num = 0; num <= 9; num++)
+
+	{
+		_putchar('0');
+
+		for (mult = 1; mult <= 9; mult++
+
+			_putchar(',');
+			_putchar(' ');
+
+			prod = num * mult;
+			if (prod <= 9)
+				_putchar(' ');
+				else
+					_putchar((prod / 10) + '0')
 	}
 }
