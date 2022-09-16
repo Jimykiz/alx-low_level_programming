@@ -3,9 +3,8 @@
 /**
  * more_numbers - prints 10 times the numbers from 0-14.
  *
- * Return: returns nothing
+ * Return: nothing
  */
-
 void more_numbers(void)
 {
 	int i, j;
@@ -23,7 +22,7 @@ void more_numbers(void)
 			}
 			else
 			{
-				_putchar(('0' + j / 10) && ('0' + j % 10))
+				_putchar('0' + j / 10);
 			}
 			j++;
 		}
