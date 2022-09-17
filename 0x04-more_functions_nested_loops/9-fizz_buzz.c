@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main - fizzbuzz algorithm.
@@ -38,4 +37,4 @@ int main(void)
 	}
 	printf("\n");
 	return (0);
-}<F4>
+}
