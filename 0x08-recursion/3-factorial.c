@@ -6,7 +6,7 @@
  *
  * Return: the factorial of the number
  */
-int _strlen_recursion(char *s)
+int factorial(int n)
 {
 	int next_factorial;
 
