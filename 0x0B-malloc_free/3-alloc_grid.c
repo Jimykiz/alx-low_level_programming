@@ -5,6 +5,7 @@
  * alloc_grid - returns a pointer to a
  * 2 dimensional array of integers.
  * @height: height of array
+ * @width: width of array
  *
  * Return: pointer to the array
  */
