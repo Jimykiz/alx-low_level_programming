@@ -22,7 +22,7 @@ void print_all(const char * const format, ...)
 			case 'c':
 				printf("%c", va_arg(arguments, int));
 				break;
-			case 'i';
+			case 'i':
 				printf("%d", va_arg(arguments, int));
 				break;
 			case 'f':
